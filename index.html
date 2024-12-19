@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="page-header">
+        <div class="main-header px-1">
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+            <nav>
+                <ul id="addClass">
+                    <li><a href="#home"><i class="fas fa-home ">&nbsp;</i>Home</a></li>
+                    <li><a href="#about"><i class="fas fa-info-circle ">&nbsp;</i>About</a></li>
+                    <li><a href="#services"><i class="fas fa-envelope-open-text ">&nbsp;</i>My Services</a></li>
+                    <li><a href="#Skills"><i class="far fa-lightbulb ">&nbsp;</i>Skills</a></li>
+                    <li><a href="#contact"><i class="far fa-user-circle ">&nbsp;</i>Contact</a></li>
+                </ul>
+                <div class="menu">
+                    <i class="bi bi-list toggler-icon"></i>
+                </div>
+
+                <div class="nav-icon">
+                    <div class="search-box">
+                        <button class="btn-search"><i class="bi bi-search"></i></button>
+                        <input type="text" onkeyup="search_page()" class="input-search" placeholder="Type to Search...">
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+    <section class="section-1" id="home" style="background-image: url('hero-bg.png');">
+        <div style="background: #000000e6;">
+            <div class="section-1-bg">
+                <div>
+                    <h1 class="trans-text-bg">WELCOME<br><span class="trans-text">TO MY</span> <i>PROFILE</i></h1>
+                </div>
+            </div>
+
+            <div class="section-2 px-1">
+                <img src="https://kissflow.com/hubfs/best_hr_tools-1.webp" alt="">
+
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/usha-gomathi-776b43242?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank" class="social-icon"><i class="bi bi-linkedin"></i> <span>Linkedin</span></a>
+                    <a href="https://www.instagram.com/itz.usha_mathi/" target="_blank" class="social-icon"><i
+                            class="bi bi-instagram"></i> <span>Instagram</span></a>
+                    <a href="https://github.com/ushagomathi" target="_blank" class="social-icon"><i
+                            class="bi bi-github"></i> <span>Github</span></a>
+                    <a href="https://www.facebook.com/profile.php?id=100057370124787&mibextid=ZbWKwL" target="_blank"
+                        class="social-icon"><i class="bi bi-facebook"></i> <span>Facebook</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <br>
+        <div class="aboutses" id="about">
+            <center>
+                <div class="tit-text">
+                    <div class="background-text">ABOUT</div>
+                    <div class="foreground-text"> Know Me More <span class="underline"></span> </div>
+                </div>
+            <div class="about-flex">
+                <!--typing animation-->
+                <h1>
+                        <span class="hi-text">Hey...!</span><br><span class="name-text">It's me Usha &#9825</span>
+                </h1>
+
+                    <img id="image-element" src="https://img.freepik.com/free-vector/cute-girl-hacker-operating-laptop-cartoon-vector-icon-illustration-people-technology-isolated-flat_138676-9487.jpg" style="width: 50%; background-blend-mode:exclusion;">
+            </div>
+            </center>
+            <br>
+            <p> A curious explorer, deeply intrigued by venturing into uncharted territories and delving into freash
+                domains to expand my understanding within the realm of computer science. As a deticated individual,
+                I am
+                fully commited to contributing my utmost to the technical field.
+            </p>
+            <div class="ab-section">
+                <p><i class="fas fa-map-marker-alt fa-fw w3-xlarge w3-margin-right"></i>Tirunelveli</p>
+                <p><i class="fa fa-phone fa-fw w3-xlarge w3-margin-right"></i>+91 9489951043</p>
+                <p><i class="fa fa-envelope fa-fw w3-xlarge w3-margin-right"> </i>ushamathi@gmail.com</p>
+            </div>
+            <button id="download-button" class="Download">
+                <i class="fa fa-download"></i> Download Image
+            </button>
+    </section>
+    <section id="services">
+        <br>
+        <h2 class="hb-1"><span>Latest Projects</span></h2>
+        <div class="container-p">
+            <div class="card mb-4">
+                <img src="hero-right.png" class="card-img-top" alt="Post 1">
+                <div class="card-body">
+                    <h3 class="card-text">Web Design</h3>
+                    <p class="card-text">The project based on frontend stack. As a passionate developer to start my
+                        interest with my first project as responsive registration form.</p>
+                    <a href="eg.html" class="btn btn-primary">Read More</a>
+                    <p><button class="button" id="rate-us-button">Rate Us <i class="fa fa-heart-o"></i></button></p>
+                </div>
+            </div>
+            <div class="card mb-5">
+                <img src="hero-right.png" class="card-img-top" alt="Post 2">
+                <div class="card-body">
+                    <h3 class="card-text">Web Design</h3>
+                    <p class="card-text">The project based on frontend stack. As a passionate developer to start my
+                        interest with my first project as responsive registration form.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                    <p><button class="button" id="rate-us-button">Rate Us <i class="fa fa-heart-o"></i></button></p>
+                </div>
+            </div>
+            <div class="card mb-6">
+                <img src="hero-right.png" class="card-img-top" alt="Post 3">
+                <div class="card-body">
+                    <h3 class="card-text">Web Design</h3>
+                    <p class="card-text">The project based on frontend stack. As a passionate developer to start my
+                        interest with my first project as responsive registration form.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                    <p><button class="button" id="rate-us-button">Rate Us <i class="fa fa-heart-o"></i></button></p>
+                </div>
+            </div>
+            <div class="card mb-7">
+                <img src="hero-right.png" class="card-img-top" alt="Post 3">
+                <div class="card-body">
+                    <h3 class="card-text">Web Design</h3>
+                    <p class="card-text">The project based on frontend stack. As a passionate developer to start my
+                        interest with my first project as responsive registration form.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                    <p><button class="button" id="rate-us-button">Rate Us <i class="fa fa-heart-o"></i></button></p>
+                </div>
+            </div>
+
+            <!-- Rating modal -->
+
+            <div id="rating-modal" class="rating-modal">
+                <div class="rating-modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Feedback</h2>
+
+                    <div class="rating">
+                        <input type="radio" id="star-1" name="star-radio" value="star-1">
+                        <label for="star-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path pathLength="360"
+                                    d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                </path>
+                            </svg>
+                        </label>
+                        <input type="radio" id="star-2" name="star-radio" value="star-1">
+                        <label for="star-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path pathLength="360"
+                                    d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                </path>
+                            </svg>
+                        </label>
+                        <input type="radio" id="star-3" name="star-radio" value="star-1">
+                        <label for="star-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path pathLength="360"
+                                    d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                </path>
+                            </svg>
+                        </label>
+                        <input type="radio" id="star-4" name="star-radio" value="star-1">
+                        <label for="star-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path pathLength="360"
+                                    d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                </path>
+                            </svg>
+                        </label>
+                        <input type="radio" id="star-5" name="star-radio" value="star-1">
+                        <label for="star-5">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path pathLength="360"
+                                    d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z">
+                                </path>
+                            </svg>
+                        </label>
+                    </div>
+                    <textarea id="feedback" placeholder="Tell us about your experience..."></textarea>
+                    <button id="submit-rate" class="submit">Submit</button>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <br>
+    <section class="section-3" id="Skills">
+
+            <h2>SKILLS<span class="underline"></span> </h2>
+        <div class="flex-cont">
+            <div class="columns">
+                <div class="name-column">
+                    <div class="name">
+                        <ul>
+                            <li>Fullstack project</li>
+                            <li>Web designing</li>
+                            <li>Networking</li>
+                            <li>Error detecting</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bar-column">
+                    <div class="bar u">
+                        <div class="fill fill-u"></div>
+                    </div>
+                    <div class="c-bar-p">
+                        <div class="bar p">
+                            <div class="fill fill-p"></div>
+                        </div>
+                    </div>
+                    <div class="c-bar-ns">
+                        <div class="bar ns">
+                            <div class="fill fill-ns"></div>
+                        </div>
+                    </div>
+                    <div class="c-bar-br">
+                        <div class="bar br">
+                            <div class="fill fill-br"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="num-column">
+                    <div class="number">
+                        <ul>
+                            <li>60%</li>
+                            <li>75%</li>
+                            <li>50%</li>
+                            <li>80%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="section-4" id="contact">
+        <br><br>
+        <article>
+            <h2>GET IN TOUCH WITH ME</h2>
+            <p>Are you READY to work together?...</p>
+        </article>
+        <div class="container-c">
+            <div class="split right">
+                <h3>
+                    <p>Stay in touch with me!</p>
+                </h3>
+                <p>I’m open to any communication!<br>Feel free to contact me any convenient way!
+                    I’m always interested in hearing about new projects and opportunities. </p>
+                <del style="-webkit-text-fill-color:red;">NOT Yet added script for contact session</del>
+            </div>
+            <div class="split left">
+                <form method="post" id="c_form">
+                    <div class="input-control">
+                        <label for="fname">FullName</label>
+                        <input type="text" id="fname" name="fname" placeholder="Name" autocomplete="off">
+                        <div class="c-error"></div>
+                        <label for="phno">Mobile Number</label>
+                        <input type="tel" id="phno" name="phno" placeholder="Phone number" autocomplete="off">
+                        <div class="c-error"></div>
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="Email" autocomplete="off">
+                        <div class="c-error"></div>
+                        <label for="msg">Your Message</label>
+                        <textarea id="msg" name="msg" placeholder="Your Message" rows="4"
+                            style="width: 100%;"></textarea>
+                        <div class="c-error"></div>
+                        <br>
+                        <button class="fa fa-send-o" type="submit">Send Message</button>
+                    </div>
+
+                </form>
+            </div>
+    </section>
+    <br>
+    <!-- Footer -->
+
+
+    <div class="footer">&copy;<span id="year"> </span><span> My Personal Portfolio</span></div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

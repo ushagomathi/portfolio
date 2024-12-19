@@ -1,0 +1,92 @@
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+  body {
+    left: 0;
+    top: 0;
+    transform: scale(70%, 70%);
+    margin: 0;
+    padding-block: 10%;
+    background-blend-mode: darken;
+  }
+
+  .frame {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-color: whitesmoke;
+    border-radius: 10px;
+    border-style: groove;
+    width: 70%;
+    max-height: max-content;
+    padding: 50px;
+  }
+
+  .text-grey,.image-grid,.content {
+    grid-column: span 2;
+    padding: 20px;
+  }
+
+  hr{
+    border: 1px solid goldenrod;
+  }
+
+</style>
+
+<body>
+
+  <div class="frame">
+ 
+    <h2 class="text-grey">My Portfolio</h2>
+    <hr>
+
+    <!-- The container for the grid of 4 images 
+        <div id="image-grid" style="display: none;">
+          <div class="row">
+            <div class="column">
+              <img src="image1.jpg" />
+              <img src="image2.jpg" />
+            </div>
+            <div class="column">
+              <img src="image3.jpg" />
+              <img src="image4.jpg" />
+            </div>
+          </div>
+        </div>
+        -->
+    <!-- Grid for photos -->
+
+
+    <div class="image-grid">
+      <div class="w3-half">
+        <img src="/w3images/wedding.jpg" class="img">
+        <img src="/w3images/rocks.jpg" class="img">
+      </div>
+
+      <div class="w3-half">
+        <img src="/w3images/underwater.jpg" class="img">
+        <img src="/w3images/wedding.jpg" class="img">
+      </div>
+    </div>
+
+      <div class="content">
+        <label for="head1">WEB DESIGN</label>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at orci id est ultricies hendrerit. Duis mollis
+          risus vel orci consequat, non dignissim justo interdum. Mauris mattis fringilla libero, id efficitur mauris
+          suscipit sit amet.</p>
+      </div>
+    <div class="cont3">
+      <h4>Type:</h4>
+      <h4>Languages:</h4>
+      <h4>Platform:</h4>
+    </div>
+    <div class="cont4">
+      <p>Website</p>
+      <p>Frontend stack</p>
+      <p>Vscode</p>
+    </div>
+  </div>
+
+  </body>
